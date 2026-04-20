@@ -77,5 +77,5 @@ We reserve the right to make changes to this Privacy Policy at any time and for 
 
 If you have questions or comments about this Privacy Policy, please contact us at:
 
-[Insert Support Email Address]
-[Insert Developer/Company Name]
+dimasarfanasyuro123@gmail.com
+Shura Tech Global
