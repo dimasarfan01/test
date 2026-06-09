@@ -1,6 +1,6 @@
 # Privacy Policy for AniFilter AI Photo Editor
 
-**Last Updated: June 9, 2026**   <!-- [CHANGED: bump date] -->
+**Last Updated: June 9, 2026**
 
 Shura Tech Global ("we", "us", or "our") operates the AniFilter AI Photo
 Editor mobile application (the "App"). This page informs you of our policies
@@ -21,9 +21,8 @@ our App.
 - A record of your in-app token purchases (purchase confirmations and token
   credits). All payments are processed by **Google Play Billing**; we never
   receive or store your full payment-card details.
-  <!-- [CHANGED: removed Stripe; expo-iap = Google Play Billing only] -->
 
-**Advertising Data:**   <!-- [NEW SECTION — required: you use AdMob + AD_ID permission] -->
+**Advertising Data:**
 - We use **Google AdMob** to show rewarded advertisements. To serve and
   measure ads, AdMob may access and process your device's **Advertising ID**
   and related device identifiers.
@@ -43,7 +42,6 @@ our App.
 - To process your photos and generate AI images.
 - To process token purchases and maintain your token balance.
 - To display advertisements (including rewarded ads that grant tokens).
-  <!-- [NEW: ads purpose] -->
 - To operate, maintain, and improve the App.
 
 ## 3. How We Share Your Information
@@ -57,13 +55,12 @@ run the App:
   generated images on our cloud servers.**
 - **Authentication:** Google Sign-In, to verify your identity.
 - **Payments:** Google Play Billing, to process token purchases.
-  <!-- [CHANGED: removed Stripe] -->
 - **Advertising:** Google AdMob, which may use your Advertising ID to serve
-  and personalize ads.   <!-- [NEW] -->
+  and personalize ads.
 - **Cloud Hosting:** Infrastructure providers that host our backend services.
 - **Legal:** Where required by law or to protect our rights.
 
-## 4. Data Retention and Account Deletion   <!-- [NEW SECTION — real deletion now exists] -->
+## 4. Data Retention and Account Deletion
 
 You can permanently delete your account and associated data at any time:
 
@@ -78,7 +75,7 @@ require no deletion. We may retain limited records only where required by law
 (e.g., purchase/tax records), after which they are deleted. Purchases are
 non-refundable and any remaining token balance is forfeited on deletion.
 
-Full instructions: <!-- paste your hosted account-deletion URL here -->
+Full instructions: https://raw.githubusercontent.com/dimasarfan01/test/refs/heads/main/anifilter_account_deletion.md
 
 ## 5. Security
 
