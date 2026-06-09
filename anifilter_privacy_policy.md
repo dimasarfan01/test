@@ -1,81 +1,103 @@
-# Privacy Policy for Anifilter AI Photo Editor
+# Privacy Policy for AniFilter AI Photo Editor
 
-**Last Updated:** March 1, 2026
+**Last Updated: June 9, 2026**   <!-- [CHANGED: bump date] -->
 
-Welcome to Anifilter AI Photo Editor ("Anifilter," "we," "us," or "our"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the application.
+Shura Tech Global ("we", "us", or "our") operates the AniFilter AI Photo
+Editor mobile application (the "App"). This page informs you of our policies
+regarding the collection, use, and disclosure of personal data when you use
+our App.
 
 ## 1. Information We Collect
 
-We may collect information about you in a variety of ways. The information we may collect via the App includes:
-
-### A. Personal Data
-
-When you register for an account or interact with the App, we may collect personally identifiable information, such as your:
-
+**Personal Data (via Google Sign-In):**
 - Name
 - Email address
 - Profile picture (if provided)
 
-### B. User Content (Photos)
+**User Content:**
+- Photos you explicitly choose to upload to the App.
 
-The core functionality of Anifilter is to apply AI-generated styles to your photos. Therefore, to provide this service:
+**Financial Data:**
+- A record of your in-app token purchases (purchase confirmations and token
+  credits). All payments are processed by **Google Play Billing**; we never
+  receive or store your full payment-card details.
+  <!-- [CHANGED: removed Stripe; expo-iap = Google Play Billing only] -->
 
-- **Photo Uploads:** We collect the photos you explicitly choose to upload to the App.
-- **AI Generation:** These photos are securely transmitted to our backend servers and third-party AI service providers (e.g., Google's Gemini models) strictly for the purpose of generating the requested stylized artwork.
-- **Local Storage Only:** **We do not save your uploaded photos or the resulting generated images on our cloud servers.** Both the original photo and the final stylized artwork are stored exclusively locally on your device's internal storage. We only securely transmit the photo to our generation API and immediately discard the file from the server once the results are returned. Your history shown in the app uses the images saved on your own device.
+**Advertising Data:**   <!-- [NEW SECTION — required: you use AdMob + AD_ID permission] -->
+- We use **Google AdMob** to show rewarded advertisements. To serve and
+  measure ads, AdMob may access and process your device's **Advertising ID**
+  and related device identifiers.
+- You can reset or delete your Advertising ID at any time in your device's
+  Google settings ("Ads"). For more information, see Google's
+  [Advertising policies](https://policies.google.com/technologies/ads).
 
-### C. Financial Data
-
-If you purchase premium tokens or subscriptions within the App, your payment is processed by third-party payment processors (e.g., Google Play Billing or Stripe). We do not collect or store your full credit card number or financial details. We only receive confirmation of your purchase and the associated tokens to credit your account.
-
-### D. Automatically Collected Data
-
-We may automatically collect device information when you access the App, such as:
-
+**Automatically Collected Data:**
 - Mobile Device ID
 - Device model and manufacturer
 - Operating system version
-- App usage data (e.g., tracking which styles are most popular)
+- App usage data (e.g., which styles are most popular)
 
 ## 2. How We Use Your Information
 
-Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use the information collected via the App to:
+- To create and manage your account.
+- To process your photos and generate AI images.
+- To process token purchases and maintain your token balance.
+- To display advertisements (including rewarded ads that grant tokens).
+  <!-- [NEW: ads purpose] -->
+- To operate, maintain, and improve the App.
 
-- **Provide Core Services:** Process your photos to generate AI anime styles.
-- **Account Management:** Create and manage your account and token balance.
-- **Improve the App:** Analyze usage patterns to improve our UI, features, and AI model prompts.
-- **Customer Support:** Respond to your inquiries and provide customer service.
-- **Security:** Prevent fraudulent transactions and monitor against theft.
+## 3. How We Share Your Information
 
-## 3. Disclosure of Your Information
+We do not sell your personal data. We share information only as needed to
+run the App:
 
-We may share information we have collected about you in certain situations. Your information may be disclosed as follows:
+- **AI Processing:** We share your uploaded photos securely with our AI
+  infrastructure providers (Google Vertex AI / Gemini) solely to generate
+  your image. **We do not save your uploaded photos or the resulting
+  generated images on our cloud servers.**
+- **Authentication:** Google Sign-In, to verify your identity.
+- **Payments:** Google Play Billing, to process token purchases.
+  <!-- [CHANGED: removed Stripe] -->
+- **Advertising:** Google AdMob, which may use your Advertising ID to serve
+  and personalize ads.   <!-- [NEW] -->
+- **Cloud Hosting:** Infrastructure providers that host our backend services.
+- **Legal:** Where required by law or to protect our rights.
 
-- **Third-Party Service Providers:** We share your uploaded photos securely with our required AI infrastructure providers (such as Google Vertex AI/Gemini) exclusively to perform the generative operations you requested. These providers are bound by strict data processing agreements and are not permitted to use your photos for their own model training unless explicitly opted-in under their specific terms.
-- **Cloud Hosting:** We use reliable cloud infrastructure providers to host our databases and store your generated image history securely.
-- **By Law or to Protect Rights:** If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others.
+## 4. Data Retention and Account Deletion   <!-- [NEW SECTION — real deletion now exists] -->
 
-## 4. Security of Your Information
+You can permanently delete your account and associated data at any time:
 
-We use administrative, technical, and physical security measures to help protect your personal information and uploaded photos. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.
+- **In the App:** Settings → Account → **Delete Account**.
+- **By email:** Contact us at the address below with the subject
+  "Account Deletion Request".
 
-## 5. User Content and Children's Privacy
+Deleting your account permanently removes your profile (name, email, profile
+picture), token balance, token transaction history, and generation history.
+Uploaded photos and generated images are not stored on our servers and so
+require no deletion. We may retain limited records only where required by law
+(e.g., purchase/tax records), after which they are deleted. Purchases are
+non-refundable and any remaining token balance is forfeited on deletion.
 
-We do not knowingly solicit information from or market to children under the age of 13. If you become aware of any data we have collected from children under age 13, please contact us using the contact information provided below.
+Full instructions: <!-- paste your hosted account-deletion URL here -->
 
-## 6. Your Data Rights
+## 5. Security
 
-Depending on your region (such as the GDPR in Europe or CCPA in California), you may have specific rights regarding your data, including the right to request access, correction, or deletion of your personal data and account history.
+We use commercially reasonable measures, including encryption in transit
+(HTTPS/TLS), to protect your data. However, no method of transmission or
+storage is 100% secure.
 
-- **Account Deletion:** You can request the deletion of your account and associated photos/history by contacting support or using the in-app account deletion tool (if available).
+## 6. Children's Privacy
 
-## 7. Changes to This Privacy Policy
+The App is not directed to children under 13, and we do not knowingly collect
+personal data from children under 13.
 
-We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the "Last Updated" date of this Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates.
+## 7. Changes to This Policy
+
+We may update this Privacy Policy from time to time. Changes are effective
+when posted on this page with an updated "Last Updated" date.
 
 ## 8. Contact Us
 
-If you have questions or comments about this Privacy Policy, please contact us at:
-
-dimasarfanasyuro123@gmail.com
+If you have questions about this Privacy Policy, contact us at:
+**dimasarfanasyuro123@gmail.com**
 Shura Tech Global
